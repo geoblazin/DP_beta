@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddxdq07kmikrc"]
+
+[ext_resource type="PackedScene" uid="uid://boxqv8ygkvlhc" path="res://characters/jimbly/jimbly.tscn" id="1_nf1wt"]
+
+[node name="playground" type="Node2D"]
+
+[node name="Jimbly" parent="." instance=ExtResource("1_nf1wt")]
+script = null
